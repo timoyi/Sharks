@@ -1,0 +1,14 @@
+nav{
+	background-color: black;
+	height: 80px;
+	width: 1000px;
+	margin: -8px auto 10px auto;
+	border-radius: 20px;
+}
+
+.navlink{
+	position: relative;
+	color: white;
+	float: left;
+	margin: 0px 0px 0px 20px;
+}
