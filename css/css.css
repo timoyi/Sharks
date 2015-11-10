@@ -1,5 +1,10 @@
+body{
+	background-image: url("../img/cat.jpg");
+	background-size: cover;
+}
+
 nav{
-	background-color: black;
+	background-color: #000000;
 	height: 80px;
 	width: 1000px;
 	margin: -8px auto 10px auto;
