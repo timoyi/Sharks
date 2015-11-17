@@ -1,5 +1,5 @@
 body{
-	background-image: url("../img/cat.jpg");
+	background-image: url("../img/bbild.jpg");
 	background-size: cover;
 }
 
@@ -36,5 +36,29 @@ nav{
 }
 
 .navlink h2:hover{
-	color: lime;
+	color: #F0651F;
+}
+
+.ruta1{
+
+}
+
+.ruta2{
+	
+}
+
+.ruta3{
+	
+}
+
+.ruta4{
+	
+}
+
+.ruta5{
+	
+}
+
+.ruta6{
+	
 }
