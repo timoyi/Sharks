@@ -4,15 +4,16 @@
 }
 
 .test{
+	position: absolute;
 	animation-name:test;
-	animation-duration:0.5s;
+	animation-duration:1.1s;
 	background: linear-gradient(to bottom, #000000 0%,#3f3f3f 100%);
 	height: 76px;
 	width: 1000px;
-	margin: -20px auto 10px auto;
+	margin: -20px auto 10px 170px;
 	border-top: 2px #222 solid;
 	border-bottom: 2px solid #222;
-	z-index: 1;
+	z-index: -99;
 }
 
 .test h3 {
@@ -26,14 +27,14 @@ body{
 }
 
 nav{
+	position: :fixed;
 	background-color: #000000;
 	height: 98px;
 	width: 1000px;
-	margin: -3px auto 10px auto;
+	margin: -3px auto 10px 170px;
 	border-top: 2px #222 solid;
 	border-bottom: 2px solid #222;
 }
-
 
 .navbild1{
 	width:11px;
@@ -81,52 +82,96 @@ nav{
 	color: #F0651F;
 }
 
+#searchbox
+{
+    background-color: black;
+    background-image: linear-gradient(#black, #black);
+    border-radius: 35px;    
+    border-width: 1px;
+    border-style: solid;
+    border-color: #gray #gray #gray;            
+    width: 300px;
+    height: 35px;
+    padding: 10px;
+    padding-left: 200px;
+    margin: 10px auto 50px;
+    overflow: hidden; /* Clear floats */
+}
+
+#search, 
+#submit {
+    float: left;
+}
+
+
+
+#search {
+    padding: 5px 9px;
+    height: 23px;
+    width: 170px;
+    border: 1px solid #a4c3ca;
+    font: normal 13px 'trebuchet MS', arial, helvetica;
+    background: #f1f1f1;
+    border-radius: 50px 3px 3px 50px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25) inset, 0 1px 0 rgba(255, 255, 255, 1);            
+    margin:0px;
+}
+
+#submit
+{       
+    background-color: orange;
+    background-image: linear-gradient(darkorange, brown);
+    border-radius: 3px 50px 50px 3px;    
+    border-width: 1px;
+    border-style: solid;
+    border-color: orange;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 
+                0 1px 0 rgba(255, 255, 255, 0.3) inset;
+    height: 35px;
+    margin: 0px;
+    padding: 0px;
+    width: 90px;
+    cursor: pointer;
+    font: bold 14px Arial, Helvetica;
+    color: #23441e;    
+    text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+}
+
+#submit:hover {       
+    background-color: #95d788;
+    background-image: linear-gradient(#6cbb6b, #95d788);
+}   
+
+#submit:active {       
+    background: #95d788;
+    outline: none;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5) inset;        
+}
+
+#submit::-moz-focus-inner {
+       border: 0;  /* Small centering fix for Firefox */
+}
+
+main{
+	margin-top: 100px;
+	margin-left:170px;
+	width:1000px;
+	height:auto;
+}
+
+.main{
+	margin-top: 10px;
+	margin-left:170px;
+	width:1000px;
+	height:auto;
+}
+
 .ruta1{
+	display:inline-block;
 	position: relative;
 	height:400px;
 	width:300px;
-	margin: 0px 0px 0px 192px;
+	margin: 0px 0px 0px 10px;
 	border: 2px solid #222;
 
-}
-
-.ruta2{
-	position: relative;
-	height:400px;
-	width:300px;
-	margin: -404px 0px 0px 522px;
-	border: 2px solid #222;
-
-}
-
-.ruta3{
-	position: relative;
-	height:400px;
-	width:300px;
-	margin: -404px 0px 0px 852px;
-	border: 2px solid #222;	
-}
-
-.ruta4{
-	position: relative;
-	height: 200px;
-	width: 300px;
-	margin: 20px 0px 0px 192px;
-	border: 2px solid #222;
-}
-
-.ruta5{
-	position: relative;
-	height: 200px;
-	width: 300px;
-	margin: -204px 0px 0px 522px;
-	border: 2px solid #222;	
-}
-
-.ruta6{
-	position: relative;
-	height: 200px;
-	width: 300px;
-	margin: -204px 0px 0px 852px;
-	border: 2px solid #222;	
 }
