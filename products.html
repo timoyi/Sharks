@@ -15,9 +15,9 @@
 		<a href="Products.html"><div class="navlink">
 			<h2>Products</h2>
 		</div></a>
-		<div class="navlink">
+		<a href="about.html"><div class="navlink">
 			<h2>About</h2>
-		</div>
+		</div></a>
 		<div class="navlink">
 			<h2>Support</h2>
 		</div>
@@ -36,33 +36,78 @@
 		<h3>Category</h3>
 	</div>
 <main>
-	<div class="ruta1">
+
+
+<script>
+
+function changePrice(n){
+	n = Number(n);
+	document.getElementsByClassName('filmp')[n-1].innerHTML = ' <p>price: FREE</p>' ;
+}
+
+function restorePrice(n,price){
+	n = Number(n);
+	price = Number(price);
+	document.getElementsByClassName('filmp')[n-1].innerHTML = ' <p>price: '+price+'€</p>' ;
+}
+
+
+</script>
+
+	<div class="ruta1" onmouseover="changePrice('1')" onmouseout="restorePrice('1','10')">
 		<img src="img/southpaw.jpg">
+		<div class="filmp"> <p>price: 10€</p> </div>
+		<div class="overlay"> </div>
 	</div>
-	<div class="ruta1">
+
+	<div class="ruta1" onmouseover="changePrice('2')" onmouseout="restorePrice('2','12')">
 		<img src="img/ironman3.jpg">
+		<div class="filmp"> <p>price: 12€</p> </div>
+		<div class="overlay"> </div>
 	</div>
-	<div class="ruta1">
+
+	<div class="ruta1" onmouseover="changePrice('3')" onmouseout="restorePrice('3','12')">
 		<img src="img/diehard4.0.jpg">
+		<div class="filmp"> <p>price: 10€</p> </div>
+		<div class="overlay"> </div>
 	</div>
-	<div class="ruta1">
+
+	<div class="ruta1" onmouseover="changePrice('4')" onmouseout="restorePrice('4','15')">
 		<img src="img/captainamericacivilwar.jpg">
+		<div class="filmp"> <p>price: 15€</p> </div>
+		<div class="overlay"> </div>
 	</div>
-	<div class="ruta1">
+
+	<div class="ruta1" onmouseover="changePrice('5')" onmouseout="restorePrice('5','10')">
 		<img src="img/ted2.jpg">
+		<div class="filmp"> <p>price: 10€</p> </div>
+		<div class="overlay"> </div>
 	</div>
-	<div class="ruta1">
+
+	<div class="ruta1" onmouseover="changePrice('6')" onmouseout="restorePrice('6','12')">
 		<img src="img/frozen.jpg">
+		<div class="filmp"> <p>price: 12€</p> </div>
+		<div class="overlay"> </div>
 	</div>
-	<div class="ruta1">
+
+	<div class="ruta1" onmouseover="changePrice('7')" onmouseout="restorePrice('7','10')">
 		<img src="img/interstellar.jpg">
+		<div class="filmp"> <p>price: 10€</p> </div>
+		<div class="overlay"> </div>
 	</div>
-	<div class="ruta1">
+
+	<div class="ruta1" onmouseover="changePrice('8')" onmouseout="restorePrice('8','10')">
 		<img src="img/avengers.jpg">
+		<div class="filmp"> <p>price: 10€</p> </div>
+		<div class="overlay"> </div>
+
 	</div>
+
 	<div class="ruta1">
 		<img src="img/.jpg">
+		<div class="filmp"> <p>price: 10€</p> </div>
 	</div>
+
 </main>
 </body>
 </html>
