@@ -200,7 +200,7 @@ main{
 
 #factWrapper{
 
-	height:250px;
+	height:200px;
 
 }
 .about{
@@ -260,3 +260,27 @@ main{
 	height:100px;
 	width:300px;
 }
+input {
+	margin: 5px 0px 10px 0px;
+}
+.download {
+	height: 60px;
+	width: 250px;
+ 	background-color: orange;
+    background-image: linear-gradient(darkorange, brown);
+	float: right;
+	text-align: center;
+	line-height: 20px;
+	border-radius: 10px;
+	text-decoration: none;
+}
+.download:hover {
+	box-shadow: inset 0px 10px 40px 5px rgba(0,0,0,0.20);
+}
+
+.download h1{
+	color:rgb(222, 236, 33);
+    text-shadow: 2px 1px 1px rgba(0, 0, 0, 1);
+	font-family: 'Black Ops One', cursive;
+}
+
