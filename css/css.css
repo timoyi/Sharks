@@ -33,9 +33,13 @@
 
 
 
-body{
+body {
 	background-image: url("../img/bbild.jpg");
 	background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin : 0px;
+    padding: 0px;
 }
 
 nav{
@@ -282,5 +286,17 @@ input {
 	color:rgb(222, 236, 33);
     text-shadow: 2px 1px 1px rgba(0, 0, 0, 1);
 	font-family: 'Black Ops One', cursive;
+}
+
+.footer {
+  color: #fff;
+  clear: both;
+  margin: 0px 0px 0px 0px;
+ background-color: rgba(0,0,0,0.7);
+  position: relative;
+  top: 100px;
+  height:80px; 
+  width:100%;
+
 }
 
